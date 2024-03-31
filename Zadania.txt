@@ -1,0 +1,5 @@
+Utwórz nowy projekt Node.js i zainicjuj plik package.json.
+Stwórz skrypt setup, który będzie tworzył katalog data i w nim plik notes.txt za pomocą skryptu setup.js.
+Skrypt setup.js powinien sprawdzić, czy katalog data już istnieje; jeśli nie, powinien go utworzyć. Następnie powinien utworzyć w tym katalogu plik notes.txt i wpisać do niego przykładową zawartość: "Node.js is awesome!".
+Dodaj skrypt append, który będzie dodawał dodatkowy tekst do pliku notes.txt za pomocą skryptu append.js. Skrypt append.js powinien przyjmować argumenty z linii poleceń i dodawać je do pliku notes.txt.
+Utwórz skrypt cleanup, który będzie usuwał katalog data wraz z zawartością za pomocą skryptu cleanup.js. W przypadku braku katalogu powinien się wyświetlić komunikat: Data directory does not exist, no need to clean up. (ze znakiem kropki włącznie).

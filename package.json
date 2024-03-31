@@ -1,0 +1,21 @@
+{
+  "name": "zadanie2",
+  "private": true,
+  "scripts": {
+    "setup": "node setup.js",
+    "append": "node append.js",
+    "cleanup": "node cleanup.js"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
